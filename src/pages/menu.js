@@ -5,19 +5,6 @@ import ScrollToTop from 'react-scroll-to-top';
 import '../menu.css';
 import Bleehhh from '../components/navbar';
 import Footer from '../components/footer';
-import { Link as LinkRoute } from 'react-router-dom'
-import { Link as LinkScroll } from 'react-scroll'
-import Donut2 from '../assets/donut2.jfif';
-import Donut3 from '../assets/donut3.jfif';
-import Donut4 from '../assets/donut4.jfif';
-import Donut5 from '../assets/donut5.jfif';
-import Donut6 from '../assets/donut6.jfif';
-import Donut7 from '../assets/donut7.jfif';
-import Drink1 from '../assets/minuman1.jfif';
-import Drink2 from '../assets/minuman2.jfif';
-import Drink3 from '../assets/minuman3.jfif';
-import Drink4 from '../assets/minuman4.jfif';
-import Drink5 from '../assets/minuman5.jfif';
 
 const Menu = () => {
   const [donut, setDonut] = useState(data)
