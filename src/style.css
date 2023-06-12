@@ -69,3 +69,16 @@
     transition: 1s;
 }
 
+.dani{
+    background-position: 60%;
+    background-image: url('https://images.tokopedia.net/blog-tokopedia-com/uploads/2020/11/Featured_Cara-Membuat-Donat-Varian-Lezat-dan-Tips-Agar-Empuk.jpg'); 
+    height: 300px;
+}
+
+.dani1{
+    margin-top: -100px; 
+    background: hsla(0, 0%, 100%, 0.8); 
+    backdrop-filter: 
+    blur(30px);
+}
+
