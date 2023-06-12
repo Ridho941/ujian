@@ -43,7 +43,7 @@ const Menu = () => {
 
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 pt-12 p-14">
         {donut.map((item, index) => (
-          <div key={index} className="border shadow-lg hover:scale-105 duration-300" data-aos="fade-up">
+          <div key={index} className="border shadow-lg hover:scale-110 duration-300" data-aos="fade-up">
             <img className="w-full h-[200px] object-cover rounded-t-lg" src={item.image} alt={item.name} />
             <div className="flex justify-between px-2 py-4 ">
               <p className="font-bold">{item.name}</p>
